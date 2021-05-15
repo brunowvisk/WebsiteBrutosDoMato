@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+.main-container{
+    padding-top: 100px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+.footer{
+    height: 50px;
+    text-align: center;
+}
+
+.slick-slider {
+    width: 47%;
+    margin: auto;
+    margin-top: 5%;
+    background: rgb(0, 128, 0);
+  }
+
+  .slick-slider img{
+      height: 500px;
+  }
+
+body .slick-prev,
+body .slick-next {
+    height: 40px;
+    width: 40px;
+    background: rgb(0, 128, 0) !important;
+    z-index: 100;
+}

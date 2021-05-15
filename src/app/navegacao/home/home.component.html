@@ -1,0 +1,61 @@
+<!--Page Content-->
+
+<header class="py-5 mb-3 align-items-center" style="background-color:rgba(194, 218, 18)">
+    <div class="container h-80">
+        <div class="row h-80 align-items-center">
+            <div class="col-3">
+                <img src="/assets/brutoslogo.png" width="80%" alt="">
+            </div>
+            <div class="col-8">
+                <h1 class="display-3 mt-5">EQUIPE BRUTOS DO MATO</h1>
+                <h4 class="mb-5">Venha se aventurar conosco!</h4>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+    <div class="container h-100">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-2">
+            <div class="col mb-5">
+              <div class="card h-100">
+                <a [routerLink]="['/pelejas']"><img src="./assets/pelejavaledojua.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body text-white" style="background-color:rgb(0, 128, 0)">
+                  <h5 class="card-title">Próximas pelejas</h5>
+                  <p class="card-text">Aqui você encontrará a data das próximas pelejas programadas.</p>
+                </div>
+                <div class="card-footer bg-dark">
+                  <small class="text-white">Última atualização em 08/05/2021</small>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-5">
+              <div class="card h-100">
+                <a [routerLink]="['/sobre']"><img src="./assets/equipamentos.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body text-white" style="background-color:rgb(0, 128, 0)">
+                  <h5 class="card-title">Instruções para participação</h5>
+                  <p class="card-text">As informações essenciais para que os atletas possam participar das pelejas.</p>
+                </div>
+                <div class="card-footer bg-dark">
+                  <small class="text-white">Última atualização em 08/05/2021</small>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-5">
+              <div class="card h-100">
+                <img src="./assets/itacup.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-white" style="background-color:rgb(0, 128, 0)">
+                  <h5 class="card-title">Próximas competições</h5>
+                  <p class="card-text">Nesta área você encontrará os próximos eventos esportivos no Nordeste em que a equipe Brutos do Mato estará participando.</p>
+                </div>
+                <div class="card-footer bg-dark">
+                  <small class="text-white">Última atualização em 08/05/2021</small>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</body>
+
+
+<!--FIM Page Content-->
